@@ -1,0 +1,19 @@
+<template>
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h1 class="title">login</h1>
+
+            <hr>
+
+            <b-field label="Username">
+                <b-input maxlength="30" />
+            </b-field>
+
+            <b-field label="Password">
+                <b-input type="password" maxlength="30" />
+            </b-field>
+
+            <b-button class="is-primary">Login</b-button>
+        </div>
+    </section>
+</template>
